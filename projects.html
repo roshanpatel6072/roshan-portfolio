@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects | Roshan Barvaliya</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <div class="brand-icon">
+                    <svg width="40" height="40" viewBox="0 0 40 40" fill="none">
+                        <circle cx="20" cy="20" r="18" stroke="currentColor" stroke-width="2"/>
+                        <path d="M20 8 L20 32 M12 16 L20 8 L28 16 M12 24 L20 32 L28 24" stroke="currentColor" stroke-width="2" fill="none"/>
+                    </svg>
+                </div>
+                <span class="brand-text">BARVALIYA<span class="brand-highlight">ROSHAN</span></span>
+            </div>
+            <div class="nav-toggle" id="navToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html" class="nav-link">HOME</a></li>
+                <li><a href="about.html" class="nav-link">ABOUT</a></li>
+                <li><a href="skills.html" class="nav-link">SKILLS</a></li>
+                <li><a href="projects.html" class="nav-link active">PROJECTS</a></li>
+                <li><a href="experience.html" class="nav-link">EXPERIENCE</a></li>
+                <li><a href="contact.html" class="nav-link nav-link-contact">CONTACT</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <span class="page-label">MY WORK</span>
+            <h1 class="page-title">Featured Projects</h1>
+            <p class="page-description">Innovative cybersecurity automation and security research projects</p>
+        </div>
+    </section>
+
+    <!-- Projects Content -->
+    <section class="projects-content">
+        <div class="container">
+            <!-- Project 1 -->
+            <div class="project-card">
+                <div class="project-header">
+                    <div>
+                        <div class="project-label">VAPT AUTOMATION</div>
+                        <h2 class="project-title">Dockerized Automated VAPT Orchestration Platform (DAVOP)</h2>
+                        <div class="project-meta">
+                            <span class="project-date">February 2025</span>
+                            <span class="project-separator">•</span>
+                            <span class="project-status">Completed</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <p class="project-description">
+                        Designed and developed a containerized VAPT platform using Docker to deploy isolated 
+                        scanning environments for comprehensive web and network security assessments. This platform 
+                        enables security professionals to conduct scalable, repeatable vulnerability assessments 
+                        across multiple targets without environment conflicts.
+                    </p>
+                    <div class="project-features">
+                        <h3>Key Features</h3>
+                        <ul>
+                            <li>Containerized architecture using Docker for isolated scanning environments</li>
+                            <li>n8n workflow orchestration for automated reconnaissance and vulnerability scanning</li>
+                            <li>Automated execution of Nmap and OWASP ZAP security tools</li>
+                            <li>Structured output handling and logging for risk analysis</li>
+                            <li>Automated report generation pipelines</li>
+                            <li>Scalable infrastructure supporting multiple concurrent assessments</li>
+                        </ul>
+                    </div>
+                    <div class="project-technologies">
+                        <h3>Technologies Used</h3>
+                        <div class="tech-tags">
+                            <span class="tech-tag">Docker</span>
+                            <span class="tech-tag">n8n</span>
+                            <span class="tech-tag">Nmap</span>
+                            <span class="tech-tag">OWASP ZAP</span>
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Bash</span>
+                        </div>
+                    </div>
+                    <div class="project-impact">
+                        <h3>Impact</h3>
+                        <p>
+                            This platform reduces manual assessment time by 60% and enables consistent, repeatable 
+                            security testing workflows. The automated reporting features ensure comprehensive 
+                            documentation of findings with clear remediation recommendations.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="project-card">
+                <div class="project-header">
+                    <div>
+                        <div class="project-label">ATTACK SURFACE MAPPING</div>
+                        <h2 class="project-title">Automated Network Attack Surface Mapping System</h2>
+                        <div class="project-meta">
+                            <span class="project-date">January 2025</span>
+                            <span class="project-separator">•</span>
+                            <span class="project-status">Completed</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <p class="project-description">
+                        Built a comprehensive Docker-based attack surface mapping framework designed to identify 
+                        exposed services, open ports, and external assets in enterprise network environments. This 
+                        system provides continuous visibility into the organization's attack surface, enabling 
+                        proactive security posture management.
+                    </p>
+                    <div class="project-features">
+                        <h3>Key Features</h3>
+                        <ul>
+                            <li>Automated subdomain discovery using advanced enumeration techniques</li>
+                            <li>Comprehensive port scanning and service enumeration</li>
+                            <li>n8n workflow orchestration for continuous asset discovery</li>
+                            <li>Integration of Nmap and Amass for thorough reconnaissance</li>
+                            <li>Real-time attack surface updates and monitoring</li>
+                            <li>Detailed asset inventory and risk assessment reporting</li>
+                        </ul>
+                    </div>
+                    <div class="project-technologies">
+                        <h3>Technologies Used</h3>
+                        <div class="tech-tags">
+                            <span class="tech-tag">Docker</span>
+                            <span class="tech-tag">n8n</span>
+                            <span class="tech-tag">Nmap</span>
+                            <span class="tech-tag">Amass</span>
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">PostgreSQL</span>
+                        </div>
+                    </div>
+                    <div class="project-impact">
+                        <h3>Impact</h3>
+                        <p>
+                            Provides continuous visibility into network exposure, enabling security teams to identify 
+                            and remediate newly exposed services within hours rather than weeks. Particularly valuable 
+                            for large enterprises with dynamic infrastructure.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 3 -->
+            <div class="project-card">
+                <div class="project-header">
+                    <div>
+                        <div class="project-label">SOC AUTOMATION</div>
+                        <h2 class="project-title">Automated Incident Triage & Alerting Pipeline</h2>
+                        <div class="project-meta">
+                            <span class="project-date">December 2024</span>
+                            <span class="project-separator">•</span>
+                            <span class="project-status">Completed</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <p class="project-description">
+                        Developed a SOC-style automated incident triage pipeline using Dockerized services for 
+                        log ingestion, analysis, and alert management. This system simulates real-world Security 
+                        Operations Center workflows, enabling rapid incident detection and response.
+                    </p>
+                    <div class="project-features">
+                        <h3>Key Features</h3>
+                        <ul>
+                            <li>Dockerized log ingestion and centralized analysis infrastructure</li>
+                            <li>n8n workflows for alert correlation and event enrichment</li>
+                            <li>Python-based log parsers for normalization and anomaly detection</li>
+                            <li>Threat intelligence integration for context-aware alerting</li>
+                            <li>Automated incident prioritization and escalation</li>
+                            <li>ELK Stack integration for log visualization and analysis</li>
+                        </ul>
+                    </div>
+                    <div class="project-technologies">
+                        <h3>Technologies Used</h3>
+                        <div class="tech-tags">
+                            <span class="tech-tag">Docker</span>
+                            <span class="tech-tag">n8n</span>
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">ELK Stack</span>
+                            <span class="tech-tag">Redis</span>
+                            <span class="tech-tag">YAML</span>
+                        </div>
+                    </div>
+                    <div class="project-impact">
+                        <h3>Impact</h3>
+                        <p>
+                            Demonstrates practical SOC automation capabilities, reducing mean time to detect (MTTD) 
+                            and mean time to respond (MTTR) through intelligent alert correlation and automated 
+                            triage. Serves as a foundation for enterprise-grade security monitoring solutions.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>BARVALIYA ROSHAN</h3>
+                    <p>Cybersecurity Analyst | Ethical Hacker</p>
+                    <a href="https://drive.google.com/file/d/1piupQpPt-BjD2mTcSAs2AS4hIqjopsry/view?usp=sharing" class="btn btn-download-footer" download="https://drive.google.com/file/d/1piupQpPt-BjD2mTcSAs2AS4hIqjopsry/view?usp=sharing">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4M7 10l5 5 5-5M12 15V3"/>
+                        </svg>
+                        Download CV
+                    </a>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Navigation</h4>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="skills.html">Skills</a></li>
+                            <li><a href="projects.html">Projects</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Connect</h4>
+                        <ul>
+                            <li><a href="https://linkedin.com/in/roshan-barvaliya/" target="_blank">LinkedIn</a></li>
+                            <li><a href="mailto:roshanbhai2222@gmail.com">Email</a></li>
+                            <li><a href="tel:+918160651380">Phone</a></li>
+                            <li><a href="contact.html">Contact Form</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Location</h4>
+                        <p>Ahmedabad, Gujarat<br>India</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Roshan Barvaliya. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
